@@ -45,6 +45,8 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
       - GC-oracle-Tokyo
@@ -130,6 +132,90 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GC-oracle-Tokyo
+      - GC-oracle-Tokyo 2
+      - GC-oracle-Tokyo 3
+      - GC-oracle-Tokyo 4
+      - GC-oracle-Tokyo 5
+      - GC-oracle-Tokyo 6
+      - GC-oracle-Tokyo 7
+      - GC-oracle-Tokyo 8
+      - GC-oracle-Tokyo 9
+      - GC-oracle-Tokyo 10
+      - GC-oracle-Tokyo 11
+      - GC-oracle-Tokyo 12
+      - GC-oracle-Tokyo 13
+      - GC-oracle-Tokyo 14
+      - GC-oracle-Tokyo 15
+      - CF-oracle-Tokyo
+      - CF-oracle-Tokyo 2
+      - CF-oracle-Tokyo 3
+      - CF-oracle-Tokyo 4
+      - CF-oracle-Tokyo 5
+      - CF-oracle-Tokyo 6
+      - CF-oracle-Tokyo 7
+      - CF-oracle-Tokyo 8
+      - CF-oracle-Tokyo 9
+      - CF-oracle-Tokyo 10
+      - CF-oracle-Tokyo 11
+      - CF-oracle-Tokyo 12
+      - CF-oracle-Tokyo 13
+      - CF-oracle-Tokyo 14
+      - CF-oracle-Tokyo 15
+      - CF-oracle-Tokyo 16
+      - CF-oracle-Tokyo 17
+      - CF-oracle-Tokyo 18
+      - CF-oracle-Tokyo 19
+      - CF-oracle-Tokyo 20
+      - CF-oracle-Tokyo 21
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - GC-oracle-Tokyo
+      - GC-oracle-Tokyo 2
+      - GC-oracle-Tokyo 3
+      - GC-oracle-Tokyo 4
+      - GC-oracle-Tokyo 5
+      - GC-oracle-Tokyo 6
+      - GC-oracle-Tokyo 7
+      - GC-oracle-Tokyo 8
+      - GC-oracle-Tokyo 9
+      - GC-oracle-Tokyo 10
+      - GC-oracle-Tokyo 11
+      - GC-oracle-Tokyo 12
+      - GC-oracle-Tokyo 13
+      - GC-oracle-Tokyo 14
+      - GC-oracle-Tokyo 15
+      - CF-oracle-Tokyo
+      - CF-oracle-Tokyo 2
+      - CF-oracle-Tokyo 3
+      - CF-oracle-Tokyo 4
+      - CF-oracle-Tokyo 5
+      - CF-oracle-Tokyo 6
+      - CF-oracle-Tokyo 7
+      - CF-oracle-Tokyo 8
+      - CF-oracle-Tokyo 9
+      - CF-oracle-Tokyo 10
+      - CF-oracle-Tokyo 11
+      - CF-oracle-Tokyo 12
+      - CF-oracle-Tokyo 13
+      - CF-oracle-Tokyo 14
+      - CF-oracle-Tokyo 15
+      - CF-oracle-Tokyo 16
+      - CF-oracle-Tokyo 17
+      - CF-oracle-Tokyo 18
+      - CF-oracle-Tokyo 19
+      - CF-oracle-Tokyo 20
+      - CF-oracle-Tokyo 21
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
       - GC-oracle-Tokyo
       - GC-oracle-Tokyo 2
       - GC-oracle-Tokyo 3
