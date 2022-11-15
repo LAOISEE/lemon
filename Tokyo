@@ -45,10 +45,10 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - ⚖️ 负载均衡-轮询
-      - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
       - GC-oracle-Tokyo
       - GC-oracle-Tokyo 2
       - GC-oracle-Tokyo 3
