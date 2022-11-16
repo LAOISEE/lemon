@@ -31,6 +31,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
       - CF-atlantic-San Francisco
       - GC-atlantic-San Francisco-clone
       - CF-atlantic-San Francisco 2
@@ -82,6 +84,58 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CF-atlantic-San Francisco
+      - GC-atlantic-San Francisco-clone
+      - CF-atlantic-San Francisco 2
+      - CF-atlantic-San Francisco 3
+      - CF-atlantic-San Francisco 4
+      - CF-atlantic-San Francisco 5
+      - CF-atlantic-San Francisco 6
+      - GC-atlantic-San Francisco-clone 2
+      - GC-atlantic-San Francisco-clone 3
+      - CF-atlantic-San Francisco 7
+      - CF-atlantic-San Francisco 8
+      - CF-atlantic-San Francisco 9
+      - GC-atlantic-San Francisco-clone 4
+      - GC-atlantic-San Francisco-clone 5
+      - CF-atlantic-San Francisco 10
+      - GC-atlantic-San Francisco-clone 6
+      - GC-atlantic-San Francisco-clone 7
+      - GC-atlantic-San Francisco-clone 8
+      - GC-atlantic-San Francisco-clone 9
+      - GC-atlantic-San Francisco-clone 10
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - CF-atlantic-San Francisco
+      - GC-atlantic-San Francisco-clone
+      - CF-atlantic-San Francisco 2
+      - CF-atlantic-San Francisco 3
+      - CF-atlantic-San Francisco 4
+      - CF-atlantic-San Francisco 5
+      - CF-atlantic-San Francisco 6
+      - GC-atlantic-San Francisco-clone 2
+      - GC-atlantic-San Francisco-clone 3
+      - CF-atlantic-San Francisco 7
+      - CF-atlantic-San Francisco 8
+      - CF-atlantic-San Francisco 9
+      - GC-atlantic-San Francisco-clone 4
+      - GC-atlantic-San Francisco-clone 5
+      - CF-atlantic-San Francisco 10
+      - GC-atlantic-San Francisco-clone 6
+      - GC-atlantic-San Francisco-clone 7
+      - GC-atlantic-San Francisco-clone 8
+      - GC-atlantic-San Francisco-clone 9
+      - GC-atlantic-San Francisco-clone 10
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
       - CF-atlantic-San Francisco
       - GC-atlantic-San Francisco-clone
       - CF-atlantic-San Francisco 2
