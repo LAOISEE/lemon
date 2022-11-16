@@ -31,6 +31,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
       - GC-oracle-Tokyo
       - CF-oracle-Tokyo
       - GC-oracle-Tokyo 2
@@ -82,6 +84,58 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GC-oracle-Tokyo
+      - CF-oracle-Tokyo
+      - GC-oracle-Tokyo 2
+      - GC-oracle-Tokyo 3
+      - GC-oracle-Tokyo 4
+      - GC-oracle-Tokyo 5
+      - GC-oracle-Tokyo 6
+      - GC-oracle-Tokyo 7
+      - GC-oracle-Tokyo 8
+      - GC-oracle-Tokyo 9
+      - GC-oracle-Tokyo 10
+      - CF-oracle-Tokyo 2
+      - CF-oracle-Tokyo 3
+      - CF-oracle-Tokyo 4
+      - CF-oracle-Tokyo 5
+      - CF-oracle-Tokyo 6
+      - CF-oracle-Tokyo 7
+      - CF-oracle-Tokyo 8
+      - CF-oracle-Tokyo 9
+      - CF-oracle-Tokyo 10
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - GC-oracle-Tokyo
+      - CF-oracle-Tokyo
+      - GC-oracle-Tokyo 2
+      - GC-oracle-Tokyo 3
+      - GC-oracle-Tokyo 4
+      - GC-oracle-Tokyo 5
+      - GC-oracle-Tokyo 6
+      - GC-oracle-Tokyo 7
+      - GC-oracle-Tokyo 8
+      - GC-oracle-Tokyo 9
+      - GC-oracle-Tokyo 10
+      - CF-oracle-Tokyo 2
+      - CF-oracle-Tokyo 3
+      - CF-oracle-Tokyo 4
+      - CF-oracle-Tokyo 5
+      - CF-oracle-Tokyo 6
+      - CF-oracle-Tokyo 7
+      - CF-oracle-Tokyo 8
+      - CF-oracle-Tokyo 9
+      - CF-oracle-Tokyo 10
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
       - GC-oracle-Tokyo
       - CF-oracle-Tokyo
       - GC-oracle-Tokyo 2
