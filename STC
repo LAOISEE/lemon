@@ -23,6 +23,18 @@ proxies:
   - {name: 美国 A02V, server: node-1502.yh82l3dsytxzf8.com, port: 30052, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 美国 A03V, server: node-1503.yh82l3dsytxzf8.com, port: 30029, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 美国 B01V, server: node-2501.yh82l3dsytxzf8.com, port: 22010, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A01V, server: node-1101.yh82l3dsytxzf8.com, port: 30043, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A02V, server: node-1102.yh82l3dsytxzf8.com, port: 30044, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A03V, server: node-1103.yh82l3dsytxzf8.com, port: 30045, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A04V, server: node-1104.yh82l3dsytxzf8.com, port: 30046, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A05V, server: node-1105.yh82l3dsytxzf8.com, port: 30047, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A06V, server: node-1106.yh82l3dsytxzf8.com, port: 30048, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A07V, server: node-1107.yh82l3dsytxzf8.com, port: 30049, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A08V, server: node-1108.yh82l3dsytxzf8.com, port: 30050, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A09V, server: node-1109.yh82l3dsytxzf8.com, port: 30053, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A10V, server: node-1110.yh82l3dsytxzf8.com, port: 30054, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A11V, server: node-1111.yh82l3dsytxzf8.com, port: 30059, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A12V, server: node-1112.yh82l3dsytxzf8.com, port: 30060, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港 B01V, server: node-2101.yh82l3dsytxzf8.com, port: 22001, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港 B02V, server: node-2102.yh82l3dsytxzf8.com, port: 22002, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港 B03V, server: node-2103.yh82l3dsytxzf8.com, port: 22003, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
@@ -65,6 +77,18 @@ proxy-groups:
       - 美国 A02V
       - 美国 A03V
       - 美国 B01V
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
       - 香港 B01V
       - 香港 B02V
       - 香港 B03V
@@ -95,6 +119,18 @@ proxy-groups:
       - 美国 A02V
       - 美国 A03V
       - 美国 B01V
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
       - 香港 B01V
       - 香港 B02V
       - 香港 B03V
@@ -107,24 +143,18 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 台湾 A01V
-      - 台湾 A02V
-      - 台湾 A03V
-      - 台湾 A04V
-      - 台湾 B01V
-      - 台湾 B02V
-      - 台湾 B03V
-      - 台湾 B04V
-      - 日本 B01V
-      - 狮城 A01V
-      - 狮城 A02V
-      - 狮城 A03V
-      - 狮城 A04V
-      - 狮城 B01V
-      - 美国 A01V
-      - 美国 A02V
-      - 美国 A03V
-      - 美国 B01V
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
       - 香港 B01V
       - 香港 B02V
       - 香港 B03V
@@ -337,6 +367,18 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
       - 香港 B01V
       - 香港 B02V
       - 香港 B03V
