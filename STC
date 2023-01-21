@@ -143,30 +143,6 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 香港 A01V
-      - 香港 A02V
-      - 香港 A03V
-      - 香港 A04V
-      - 香港 A05V
-      - 香港 A06V
-      - 香港 A07V
-      - 香港 A08V
-      - 香港 A09V
-      - 香港 A10V
-      - 香港 A11V
-      - 香港 A12V
-      - 香港 B01V
-      - 香港 B02V
-      - 香港 B03V
-      - 香港 B04V
-      - 香港 B05V
-      - 香港 B06V
-  - name: ⚖️ 负载均衡-轮询
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: round-robin
-    proxies:
       - 台湾 A01V
       - 台湾 A02V
       - 台湾 A03V
@@ -185,6 +161,30 @@ proxy-groups:
       - 美国 A02V
       - 美国 A03V
       - 美国 B01V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
       - 香港 B01V
       - 香港 B02V
       - 香港 B03V
