@@ -297,10 +297,10 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
+      - ALL Hashing
       - US Pacific
       - US Atlantic
       - JP Tokyo
-      - ALL Hashing
       - ♻️ 自动选择
       - 🎯 全球直连
       - cf-atlantic-sfo
