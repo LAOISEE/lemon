@@ -199,7 +199,7 @@ proxy-groups:
       - 香港 B04V
       - 香港 B05V
       - 香港 B06V
-  - name: ⚖️ 负载均衡-轮询
+  - name: ⚖️ HK负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
@@ -223,6 +223,20 @@ proxy-groups:
       - 香港 B04V
       - 香港 B05V
       - 香港 B06V
+  - name: ⚖️ TW负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 台湾 A01V
+      - 台湾 A02V
+      - 台湾 A03V
+      - 台湾 A04V
+      - 台湾 B01V
+      - 台湾 B02V
+      - 台湾 B03V
+      - 台湾 B04V
   - name: 📲 电报消息
     type: select
     proxies:
