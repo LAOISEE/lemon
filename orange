@@ -327,6 +327,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ TW负载均衡-轮询      
       - 🚀 节点选择
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
@@ -339,6 +342,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ TW负载均衡-轮询
       - 🚀 节点选择
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
@@ -351,6 +357,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ TW负载均衡-轮询
       - 🚀 节点选择
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
@@ -363,6 +372,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ TW负载均衡-轮询
       - 🚀 节点选择
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
