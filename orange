@@ -238,6 +238,39 @@ proxy-groups:
       - 台湾 B02V
       - 台湾 B03V
       - 台湾 B04V
+  - name: ⚖️ JP负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 日本 A01V
+      - 日本 A02V
+      - 日本 A03V
+      - 日本 A04V
+      - 日本 B01V
+  - name: ⚖️ US负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 美国 A01V
+      - 美国 A02V
+      - 美国 A03V
+      - 美国 A04V
+      - 美国 B01V
+  - name: ⚖️ SG负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 狮城 A01V
+      - 狮城 A02V
+      - 狮城 A03V
+      - 狮城 A04V
+      - 狮城 B01V
   - name: 📲 电报消息
     type: select
     proxies:
