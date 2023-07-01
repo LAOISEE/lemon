@@ -46,6 +46,8 @@ proxies:
   - {name: 香港 B04V, server: node-2104.yh82l3dsytxzf8.com, port: 22004, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港 B05V, server: node-2105.yh82l3dsytxzf8.com, port: 22005, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港 B06V, server: node-2106.yh82l3dsytxzf8.com, port: 22006, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: WARPIP, server: 162.159.192.175, port: 864, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARPDNS, server: engage.cloudflareclient.com, port: 2408, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -61,6 +63,8 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
+      - WARPIP
+      - WARPDNS
       - DIRECT
   - name: 🚀 手动切换
     type: select
