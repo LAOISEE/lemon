@@ -46,8 +46,18 @@ proxies:
   - {name: 香港 B04V, server: node-2104.yh82l3dsytxzf8.com, port: 22004, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港 B05V, server: node-2105.yh82l3dsytxzf8.com, port: 22005, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 香港 B06V, server: node-2106.yh82l3dsytxzf8.com, port: 22006, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: WARPIP, server: 162.159.192.175, port: 864, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
-  - {name: WARPDNS, server: engage.cloudflareclient.com, port: 2408, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP1, server: 162.159.195.14, port: 2371, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP2, server: 162.159.192.175, port: 864, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP3, server: 162.159.192.226, port: 2371, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP4, server: 162.159.195.150, port: 946, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP5, server: 162.159.195.12, port: 859, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP6, server: 162.159.192.31, port: 8886, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP7, server: 162.159.192.254, port: 894, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP8, server: 162.159.195.236, port: 891, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP9, server: 162.159.192.70, port: 934, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP10, server: 162.159.195.83, port: 946, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP11, server: 162.159.192.239, port: 2371, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+  - {name: WARP12, server: 162.159.195.112, port: 1010, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -55,6 +65,7 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ⚖️ HK负载均衡-轮询
       - ⚖️ TW负载均衡-轮询
+      - WARP-轮询
       - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -63,8 +74,6 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
-      - WARPIP
-      - WARPDNS
       - DIRECT
   - name: 🚀 手动切换
     type: select
@@ -228,6 +237,24 @@ proxy-groups:
       - 香港 B04V
       - 香港 B05V
       - 香港 B06V
+  - name: WARP-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - WARP1
+      - WARP2
+      - WARP3
+      - WARP4
+      - WARP5
+      - WARP6
+      - WARP7
+      - WARP8
+      - WARP9
+      - WARP10
+      - WARP11
+      - WARP12
   - name: ⚖️ TW负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
