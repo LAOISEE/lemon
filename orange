@@ -77,8 +77,8 @@ proxies:
   - {name: WARP3, server: 162.159.195.113, port: 928, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
   - {name: WARP4, server: 162.159.192.166, port: 7281, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
   - {name: WARP5, server: 162.159.192.250, port: 2408, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
-  - {name: WARP5, server: 162.159.195.184, port: 891, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
-  proxy-groups:
+  - {name: WARP6, server: 162.159.195.184, port: 891, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
+proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
@@ -263,18 +263,38 @@ proxies:
     interval: 300
     strategy: round-robin
     proxies:
+      - WARPa
+      - WARPb
+      - WARPc
+      - WARPd
+      - WARPe
+      - WARPf
+      - WARPg
+      - WARPh
+      - WARPi
+      - WARPj
+      - WARPk
+      - WARPl
+      - WARPm
+      - WARPn
+      - WARPo
+      - WARPp
+      - WARPq
+      - WARPr
+      - WARPs
+      - WARPt
+      - WARPu
+      - WARPv
+      - WARPw
+      - WARPx
+      - WARPy
+      - WARPz
       - WARP1
       - WARP2
       - WARP3
       - WARP4
       - WARP5
       - WARP6
-      - WARP7
-      - WARP8
-      - WARP9
-      - WARP10
-      - WARP11
-      - WARP12
   - name: ⚖️ TW负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
