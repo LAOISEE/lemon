@@ -86,6 +86,7 @@ proxy-groups:
       - ⚖️ HK负载均衡-轮询
       - ⚖️ TW负载均衡-轮询
       - WARP-轮询
+      - WARP-散列
       - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -295,6 +296,44 @@ proxy-groups:
       - WARP4
       - WARP5
       - WARP6
+  - name: WARP-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - WARPa
+      - WARPb
+      - WARPc
+      - WARPd
+      - WARPe
+      - WARPf
+      - WARPg
+      - WARPh
+      - WARPi
+      - WARPj
+      - WARPk
+      - WARPl
+      - WARPm
+      - WARPn
+      - WARPo
+      - WARPp
+      - WARPq
+      - WARPr
+      - WARPs
+      - WARPt
+      - WARPu
+      - WARPv
+      - WARPw
+      - WARPx
+      - WARPy
+      - WARPz
+      - WARP1
+      - WARP2
+      - WARP3
+      - WARP4
+      - WARP5
+      - WARP6
   - name: ⚖️ TW负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -441,6 +480,8 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
+      - WARP-轮询
+      - WARP-散列
       - 🚀 手动切换
   - name: Ⓜ️ 微软云盘
     type: select
@@ -456,6 +497,8 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
+      - WARP-轮询
+      - WARP-散列
       - 🚀 手动切换
   - name: Ⓜ️ 微软服务
     type: select
@@ -471,6 +514,8 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
+      - WARP-轮询
+      - WARP-散列
       - 🚀 手动切换
   - name: 🍎 苹果服务
     type: select
@@ -486,6 +531,8 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
+      - WARP-轮询
+      - WARP-散列
       - 🚀 手动切换
   - name: 🎮 游戏平台
     type: select
