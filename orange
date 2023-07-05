@@ -84,6 +84,7 @@ proxy-groups:
     proxies:
       - ⚖️ 负载均衡-散列
       - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
       - ⚖️ TW负载均衡-轮询
       - WARP-轮询
       - WARP-散列
@@ -239,6 +240,30 @@ proxy-groups:
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
+    proxies:
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
+  - name: ⚖️ HK-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
     proxies:
       - 香港 A01V
       - 香港 A02V
