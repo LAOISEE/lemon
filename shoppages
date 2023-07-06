@@ -30,6 +30,14 @@ proxies:
   - {"name":"sk31a\r","type":"vless","server":"shop31.tsunami.ml","port":443,"uuid":"25af162e-744f-4302-af3c-df19b721d538","tls":true,"servername":"shop31.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop31.tsunami.ml"}}}
   - {"name":"sk31b\r","type":"vless","server":"104.19.164.12","port":443,"uuid":"25af162e-744f-4302-af3c-df19b721d538","tls":true,"servername":"shop31.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop31.tsunami.ml"}}}
   - {"name":"sk32b\r","type":"vless","server":"104.19.164.12","port":443,"uuid":"1775de97-ccf0-44fc-9aa2-428d5fd442c2","tls":true,"servername":"shop32.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop32.tsunami.ml"}}}
+  - {name: 台湾 A01V, server: node-1201.yh82l3dsytxzf8.com, port: 6000, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 A02V, server: node-1202.yh82l3dsytxzf8.com, port: 6001, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 A03V, server: node-1203.yh82l3dsytxzf8.com, port: 6002, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 A04V, server: node-1204.yh82l3dsytxzf8.com, port: 6003, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 B01V, server: node-2201.yh82l3dsytxzf8.com, port: 6008, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 B02V, server: node-2202.yh82l3dsytxzf8.com, port: 6009, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 B03V, server: node-2203.yh82l3dsytxzf8.com, port: 6010, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 B04V, server: node-2204.yh82l3dsytxzf8.com, port: 6011, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
