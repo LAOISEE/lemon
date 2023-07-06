@@ -38,6 +38,11 @@ proxies:
   - {name: 台湾 B02V, server: node-2202.yh82l3dsytxzf8.com, port: 6009, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 台湾 B03V, server: node-2203.yh82l3dsytxzf8.com, port: 6010, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 台湾 B04V, server: node-2204.yh82l3dsytxzf8.com, port: 6011, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 A01V, server: node-1301.yh82l3dsytxzf8.com, port: 30037, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 A02V, server: node-1302.yh82l3dsytxzf8.com, port: 30038, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 A03V, server: node-1303.yh82l3dsytxzf8.com, port: 30019, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 A04V, server: node-1304.yh82l3dsytxzf8.com, port: 30020, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 B01V, server: node-2301.yh82l3dsytxzf8.com, port: 22009, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
