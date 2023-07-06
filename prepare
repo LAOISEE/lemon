@@ -31,10 +31,47 @@ proxies:
   - {"name":"sk31a\r","type":"vless","server":"shop31.tsunami.ml","port":443,"uuid":"25af162e-744f-4302-af3c-df19b721d538","tls":true,"servername":"shop31.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop31.tsunami.ml"}}}
   - {"name":"sk31b\r","type":"vless","server":"104.19.164.12","port":443,"uuid":"25af162e-744f-4302-af3c-df19b721d538","tls":true,"servername":"shop31.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop31.tsunami.ml"}}}
   - {"name":"sk32b\r","type":"vless","server":"104.19.164.12","port":443,"uuid":"1775de97-ccf0-44fc-9aa2-428d5fd442c2","tls":true,"servername":"shop32.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop32.tsunami.ml"}}}
+  - {name: 台湾 A01V, server: node-1201.yh82l3dsytxzf8.com, port: 6000, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 A02V, server: node-1202.yh82l3dsytxzf8.com, port: 6001, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 A03V, server: node-1203.yh82l3dsytxzf8.com, port: 6002, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 A04V, server: node-1204.yh82l3dsytxzf8.com, port: 6003, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 B01V, server: node-2201.yh82l3dsytxzf8.com, port: 6008, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 B02V, server: node-2202.yh82l3dsytxzf8.com, port: 6009, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 B03V, server: node-2203.yh82l3dsytxzf8.com, port: 6010, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾 B04V, server: node-2204.yh82l3dsytxzf8.com, port: 6011, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 A01V, server: node-1301.yh82l3dsytxzf8.com, port: 30037, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 A02V, server: node-1302.yh82l3dsytxzf8.com, port: 30038, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 A03V, server: node-1303.yh82l3dsytxzf8.com, port: 30019, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 A04V, server: node-1304.yh82l3dsytxzf8.com, port: 30020, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本 B01V, server: node-2301.yh82l3dsytxzf8.com, port: 22009, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A01V, server: node-1101.yh82l3dsytxzf8.com, port: 30043, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A02V, server: node-1102.yh82l3dsytxzf8.com, port: 30044, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A03V, server: node-1103.yh82l3dsytxzf8.com, port: 30045, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A04V, server: node-1104.yh82l3dsytxzf8.com, port: 30046, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A05V, server: node-1105.yh82l3dsytxzf8.com, port: 30047, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A06V, server: node-1106.yh82l3dsytxzf8.com, port: 30048, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A07V, server: node-1107.yh82l3dsytxzf8.com, port: 30049, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A08V, server: node-1108.yh82l3dsytxzf8.com, port: 30050, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A09V, server: node-1109.yh82l3dsytxzf8.com, port: 30053, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A10V, server: node-1110.yh82l3dsytxzf8.com, port: 30054, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A11V, server: node-1111.yh82l3dsytxzf8.com, port: 30059, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A12V, server: node-1112.yh82l3dsytxzf8.com, port: 30060, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B01V, server: node-2101.yh82l3dsytxzf8.com, port: 22001, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B02V, server: node-2102.yh82l3dsytxzf8.com, port: 22002, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B03V, server: node-2103.yh82l3dsytxzf8.com, port: 22003, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B04V, server: node-2104.yh82l3dsytxzf8.com, port: 22004, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B05V, server: node-2105.yh82l3dsytxzf8.com, port: 22005, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B06V, server: node-2106.yh82l3dsytxzf8.com, port: 22006, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -69,17 +106,118 @@ proxy-groups:
       - "sk31a\r"
       - "sk31b\r"
       - "sk32b\r"
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - "page1\r"
+      - "page2\r"
+      - "sk2\r"
+      - "sk1\r"
+      - "sk32a\r"
+      - "sk31a\r"
+      - "sk31b\r"
+      - "sk32b\r"
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - "page1\r"
+      - "page2\r"
+      - "sk2\r"
+      - "sk1\r"
+      - "sk32a\r"
+      - "sk31a\r"
+      - "sk31b\r"
+      - "sk32b\r"
+  - name: ⚖️ HK负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
+  - name: ⚖️ HK-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
+  - name: ⚖️ TW负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 台湾 A01V
+      - 台湾 A02V
+      - 台湾 A03V
+      - 台湾 A04V
+      - 台湾 B01V
+      - 台湾 B02V
+      - 台湾 B03V
+      - 台湾 B04V
+  - name: ⚖️ JP负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 日本 A01V
+      - 日本 A02V
+      - 日本 A03V
+      - 日本 A04V
+      - 日本 B01V
   - name: 📲 电报消息
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
       - DIRECT
   - name: 💬 OpenAi
@@ -87,12 +225,12 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
       - DIRECT
   - name: 📢 谷歌FCM
@@ -100,12 +238,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: 📢 谷歌🇨🇳Play下载
     type: select
@@ -113,12 +251,12 @@ proxy-groups:
       - 🚀 节点选择
       - DIRECT
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: 📢 谷歌🇨🇳Play服务
     type: select
@@ -126,24 +264,24 @@ proxy-groups:
       - 🚀 节点选择
       - DIRECT
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: 📢 谷歌🇨🇳
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: 📢 谷歌
     type: select
@@ -151,24 +289,24 @@ proxy-groups:
       - 🚀 节点选择
       - DIRECT
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: 📹 油管视频
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
       - DIRECT
   - name: 🎥 奈飞视频
@@ -177,18 +315,18 @@ proxy-groups:
       - 🎥 奈飞节点
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
       - DIRECT
   - name: 📺 巴哈姆特
     type: select
     proxies:
-      - 🇨🇳 台湾节点
+      - ⚖️ TW负载均衡-轮询
       - 🚀 节点选择
       - 🚀 手动切换
       - DIRECT
@@ -196,77 +334,83 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
       - DIRECT
   - name: 🌏 国内媒体
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: 🎮 游戏平台
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: 🎶 网易音乐
     type: select
@@ -296,12 +440,12 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - 🚀 手动切换
   - name: 🇭🇰 香港节点
     type: url-test
