@@ -67,6 +67,10 @@ proxy-groups:
     proxies:
       - ⚖️ 负载均衡-轮询
       - ⚖️ 负载均衡-散列
+      - ⚖️ HK负载均衡-轮询
+      - ⚖️ HK-散列
+      - ⚖️ TW负载均衡-轮询
+      - ⚖️ JP负载均衡-轮询
       - ♻️ 自动选择
       - DIRECT
       - "page1\r"
@@ -119,6 +123,79 @@ proxy-groups:
       - "sk31a\r"
       - "sk31b\r"
       - "sk32b\r"
+  - name: ⚖️ HK负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
+  - name: ⚖️ HK-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
+  - name: ⚖️ TW负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 台湾 A01V
+      - 台湾 A02V
+      - 台湾 A03V
+      - 台湾 A04V
+      - 台湾 B01V
+      - 台湾 B02V
+      - 台湾 B03V
+      - 台湾 B04V
+  - name: ⚖️ JP负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 日本 A01V
+      - 日本 A02V
+      - 日本 A03V
+      - 日本 A04V
+      - 日本 B01V
   - name: 🌍 国外媒体
     type: select
     proxies:
