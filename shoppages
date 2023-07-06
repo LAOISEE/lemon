@@ -34,7 +34,7 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ⚖️ HK负载均衡-轮询
+      - ⚖️ 负载均衡-轮询
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - DIRECT
@@ -74,7 +74,7 @@ proxy-groups:
       - "sk31a\r"
       - "sk31b\r"
       - "sk32b\r"
-  - name: ⚖️ HK负载均衡-轮询
+  - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
