@@ -43,6 +43,24 @@ proxies:
   - {name: 日本 A03V, server: node-1303.yh82l3dsytxzf8.com, port: 30019, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 日本 A04V, server: node-1304.yh82l3dsytxzf8.com, port: 30020, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 日本 B01V, server: node-2301.yh82l3dsytxzf8.com, port: 22009, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A01V, server: node-1101.yh82l3dsytxzf8.com, port: 30043, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A02V, server: node-1102.yh82l3dsytxzf8.com, port: 30044, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A03V, server: node-1103.yh82l3dsytxzf8.com, port: 30045, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A04V, server: node-1104.yh82l3dsytxzf8.com, port: 30046, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A05V, server: node-1105.yh82l3dsytxzf8.com, port: 30047, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A06V, server: node-1106.yh82l3dsytxzf8.com, port: 30048, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A07V, server: node-1107.yh82l3dsytxzf8.com, port: 30049, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A08V, server: node-1108.yh82l3dsytxzf8.com, port: 30050, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A09V, server: node-1109.yh82l3dsytxzf8.com, port: 30053, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A10V, server: node-1110.yh82l3dsytxzf8.com, port: 30054, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A11V, server: node-1111.yh82l3dsytxzf8.com, port: 30059, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 A12V, server: node-1112.yh82l3dsytxzf8.com, port: 30060, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B01V, server: node-2101.yh82l3dsytxzf8.com, port: 22001, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B02V, server: node-2102.yh82l3dsytxzf8.com, port: 22002, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B03V, server: node-2103.yh82l3dsytxzf8.com, port: 22003, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B04V, server: node-2104.yh82l3dsytxzf8.com, port: 22004, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B05V, server: node-2105.yh82l3dsytxzf8.com, port: 22005, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 香港 B06V, server: node-2106.yh82l3dsytxzf8.com, port: 22006, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
