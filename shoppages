@@ -23,11 +23,11 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"page1\r","type":"vless","server":"104.19.164.12","port":443,"uuid":"ff8ef52c-4e0c-48e6-a2c6-1bc1e960af37","tls":true,"servername":"shop2.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop2.tsunami.ml"}}}
-  - {"name":"sk31a\r","type":"vless","server":"104.19.164.12","port":443,"uuid":"25af162e-744f-4302-af3c-df19b721d538","tls":true,"servername":"shop31.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop31.tsunami.ml"}}}
-  - {"name":"sk2\r","type":"vless","server":"162.159.143.72","port":443,"uuid":"a67157fb-32d2-4077-99bb-ade009dc4a6f","tls":true,"servername":"shop1.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop1.tsunami.ml"}}}
-  - {"name":"sk32b\r","type":"vless","server":"162.159.143.72","port":443,"uuid":"1775de97-ccf0-44fc-9aa2-428d5fd442c2","tls":true,"servername":"shop32.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop32.tsunami.ml"}}}
-  - {"name":"sk30b\r","type":"vless","server":"104.19.164.12","port":443,"uuid":"c574acda-c453-4bed-91de-f821f4a0c84d","tls":true,"servername":"shop0.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop0.tsunami.ml"}}}
+  - {"name":"page1\r","type":"vless","server":"line1.yililu.ml","port":443,"uuid":"ff8ef52c-4e0c-48e6-a2c6-1bc1e960af37","tls":true,"servername":"shop2.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop2.tsunami.ml"}}}
+  - {"name":"sk31a\r","type":"vless","server":"line2.yililu.ml","port":443,"uuid":"25af162e-744f-4302-af3c-df19b721d538","tls":true,"servername":"shop31.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop31.tsunami.ml"}}}
+  - {"name":"sk2\r","type":"vless","server":"line3.yililu.ml","port":443,"uuid":"a67157fb-32d2-4077-99bb-ade009dc4a6f","tls":true,"servername":"shop1.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop1.tsunami.ml"}}}
+  - {"name":"sk32b\r","type":"vless","server":"line4.yililu.ml","port":443,"uuid":"1775de97-ccf0-44fc-9aa2-428d5fd442c2","tls":true,"servername":"shop32.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop32.tsunami.ml"}}}
+  - {"name":"sk30b\r","type":"vless","server":"line5.yililu.ml","port":443,"uuid":"c574acda-c453-4bed-91de-f821f4a0c84d","tls":true,"servername":"shop0.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop0.tsunami.ml"}}}
   - {"name":"sk30a\r","type":"vless","server":"shop0.tsunami.ml","port":443,"uuid":"c574acda-c453-4bed-91de-f821f4a0c84d","tls":true,"servername":"shop0.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop0.tsunami.ml"}}}
   - {"name":"sk1\r","type":"vless","server":"shop1.tsunami.ml","port":443,"uuid":"a67157fb-32d2-4077-99bb-ade009dc4a6f","tls":true,"servername":"shop1.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop1.tsunami.ml"}}}
   - {"name":"page2\r","type":"vless","server":"shop2.tsunami.ml","port":443,"uuid":"ff8ef52c-4e0c-48e6-a2c6-1bc1e960af37","tls":true,"servername":"shop2.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop2.tsunami.ml"}}}
