@@ -28,11 +28,7 @@ proxies:
   - {"name":"sk2\r","type":"vless","server":"line3.yililu.ml","port":443,"uuid":"a67157fb-32d2-4077-99bb-ade009dc4a6f","tls":true,"servername":"shop1.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop1.tsunami.ml"}}}
   - {"name":"sk32b\r","type":"vless","server":"line4.yililu.ml","port":443,"uuid":"1775de97-ccf0-44fc-9aa2-428d5fd442c2","tls":true,"servername":"shop32.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop32.tsunami.ml"}}}
   - {"name":"sk30b\r","type":"vless","server":"line5.yililu.ml","port":443,"uuid":"c574acda-c453-4bed-91de-f821f4a0c84d","tls":true,"servername":"shop0.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop0.tsunami.ml"}}}
-  - {"name":"sk30a\r","type":"vless","server":"shop0.tsunami.ml","port":443,"uuid":"c574acda-c453-4bed-91de-f821f4a0c84d","tls":true,"servername":"shop0.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop0.tsunami.ml"}}}
-  - {"name":"sk1\r","type":"vless","server":"shop1.tsunami.ml","port":443,"uuid":"a67157fb-32d2-4077-99bb-ade009dc4a6f","tls":true,"servername":"shop1.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop1.tsunami.ml"}}}
-  - {"name":"page2\r","type":"vless","server":"shop2.tsunami.ml","port":443,"uuid":"ff8ef52c-4e0c-48e6-a2c6-1bc1e960af37","tls":true,"servername":"shop2.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop2.tsunami.ml"}}}
-  - {"name":"sk31b\r","type":"vless","server":"shop31.tsunami.ml","port":443,"uuid":"25af162e-744f-4302-af3c-df19b721d538","tls":true,"servername":"shop31.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop31.tsunami.ml"}}}
-  - {"name":"sk32a\r","type":"vless","server":"shop32.tsunami.ml","port":443,"uuid":"1775de97-ccf0-44fc-9aa2-428d5fd442c2","tls":true,"servername":"shop32.tsunami.ml","network":"ws","ws-opts":{"path":"/","headers":{"host":"shop32.tsunami.ml"}}}
+  - {"name":"workshop1\r","type":"vless","server":"line6.yililu.ml","port":443,"uuid":"20894274-03f6-4bea-9607-4e00cc2328ba","tls":true,"servername":"workshop1.zhanghonglu.cf","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"workshop1.zhanghonglu.cf"}}}
   - {name: 台湾 A01V, server: node-1201.yh82l3dsytxzf8.com, port: 6000, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 台湾 A02V, server: node-1202.yh82l3dsytxzf8.com, port: 6001, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 台湾 A03V, server: node-1203.yh82l3dsytxzf8.com, port: 6002, type: vmess, uuid: 8de87852-5049-38fb-9bd2-a3ad71dc3325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
@@ -87,15 +83,11 @@ proxy-groups:
     type: select
     proxies:
       - "page1\r"
-      - "page2\r"
-      - "sk2\r"
-      - "sk1\r"
-      - "sk32a\r"
       - "sk31a\r"
-      - "sk31b\r"
+      - "sk2\r"
       - "sk32b\r"
-      - "sk30a\r"
       - "sk30b\r"
+      - "workshop1\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -103,15 +95,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "page1\r"
-      - "page2\r"
-      - "sk2\r"
-      - "sk1\r"
-      - "sk32a\r"
       - "sk31a\r"
-      - "sk31b\r"
+      - "sk2\r"
       - "sk32b\r"
-      - "sk30a\r"
       - "sk30b\r"
+      - "workshop1\r"
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -119,15 +107,11 @@ proxy-groups:
     strategy: consistent-hashing
     proxies:
       - "page1\r"
-      - "page2\r"
-      - "sk2\r"
-      - "sk1\r"
-      - "sk32a\r"
       - "sk31a\r"
-      - "sk31b\r"
+      - "sk2\r"
       - "sk32b\r"
-      - "sk30a\r"
       - "sk30b\r"
+      - "workshop1\r"
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -135,15 +119,11 @@ proxy-groups:
     strategy: round-robin
     proxies:
       - "page1\r"
-      - "page2\r"
-      - "sk2\r"
-      - "sk1\r"
-      - "sk32a\r"
       - "sk31a\r"
-      - "sk31b\r"
+      - "sk2\r"
       - "sk32b\r"
-      - "sk30a\r"
       - "sk30b\r"
+      - "workshop1\r"
   - name: ⚖️ HK负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
