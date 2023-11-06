@@ -5,314 +5,315 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: "\U0001F1ED\U0001F1F0 香港 01"
-    server: litmm.bygcloud.xyz
-    port: 21101
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 香港 02"
-    server: litmm.bygcloud.xyz
-    port: 21102
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 香港 03"
-    server: litmm.bygcloud.xyz
-    port: 21103
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 香港 04"
-    server: litmm.bygcloud.xyz
-    port: 21004
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0 香港 05"
-    server: litmm.bygcloud.xyz
-    port: 21005
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1E8\U0001F1F3 台湾 01"
-    server: litmm.bygcloud.xyz
-    port: 22001
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1E8\U0001F1F3 台湾 02"
-    server: litmm.bygcloud.xyz
-    port: 22002
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5 日本 01"
-    server: litmm.bygcloud.xyz
-    port: 24001
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5 日本 02"
-    server: litmm.bygcloud.xyz
-    port: 24002
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5 日本 03"
-    server: litmm.bygcloud.xyz
-    port: 24003
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F8\U0001F1EC 新加坡 01"
-    server: litmm.bygcloud.xyz
-    port: 23001
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F8\U0001F1EC 新加坡 02"
-    server: litmm.bygcloud.xyz
-    port: 23002
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F8\U0001F1EC 新加坡 03"
-    server: litmm.bygcloud.xyz
-    port: 23003
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F0\U0001F1F7 韩国"
-    server: litmm.bygcloud.xyz
-    port: 25001
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 01"
-    server: litmm.bygcloud.xyz
-    port: 26001
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 02"
-    server: litmm.bygcloud.xyz
-    port: 26002
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8 美国 03"
-    server: litmm.bygcloud.xyz
-    port: 26003
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1E8\U0001F1E6 加拿大"
-    server: litmm.bygcloud.xyz
-    port: 27014
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1FB\U0001F1F3 越南"
-    server: litmm.bygcloud.xyz
-    port: 27024
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F2\U0001F1FE 马来西亚"
-    server: litmm.bygcloud.xyz
-    port: 27018
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F9\U0001F1ED 泰国"
-    server: litmm.bygcloud.xyz
-    port: 27016
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EE\U0001F1F3 印度"
-    server: litmm.bygcloud.xyz
-    port: 27020
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F5\U0001F1ED 菲律宾"
-    server: litmm.bygcloud.xyz
-    port: 27001
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EE\U0001F1E9 印尼"
-    server: litmm.bygcloud.xyz
-    port: 27019
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1E6\U0001F1FA 澳大利亚"
-    server: litmm.bygcloud.xyz
-    port: 27008
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F3\U0001F1FF 新西兰"
-    server: litmm.bygcloud.xyz
-    port: 27028
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1E9\U0001F1EA 德国"
-    server: litmm.bygcloud.xyz
-    port: 27004
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EB\U0001F1F7 法国"
-    server: litmm.bygcloud.xyz
-    port: 27023
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1E8\U0001F1ED 瑞士"
-    server: litmm.bygcloud.xyz
-    port: 27007
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EC\U0001F1E7 英国"
-    server: litmm.bygcloud.xyz
-    port: 27005
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F5\U0001F1F1 波兰"
-    server: litmm.bygcloud.xyz
-    port: 27010
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EE\U0001F1F9 意大利"
-    server: litmm.bygcloud.xyz
-    port: 27012
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EA\U0001F1F8 西班牙"
-    server: litmm.bygcloud.xyz
-    port: 27026
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1 荷兰"
-    server: litmm.bygcloud.xyz
-    port: 27027
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1FA\U0001F1E6 乌克兰"
-    server: litmm.bygcloud.xyz
-    port: 27022
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1EA\U0001F1EC 埃及"
-    server: litmm.bygcloud.xyz
-    port: 27021
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F2\U0001F1E9 摩尔多瓦"
-    server: litmm.bygcloud.xyz
-    port: 27013
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F5\U0001F1F0 巴基斯坦"
-    server: litmm.bygcloud.xyz
-    port: 27017
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: 乌兹别克斯坦
-    server: litmm.bygcloud.xyz
-    port: 27015
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F9\U0001F1F7 土耳其"
-    server: litmm.bygcloud.xyz
-    port: 27003
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1E6\U0001F1F7 阿根廷"
-    server: litmm.bygcloud.xyz
-    port: 27006
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1E7\U0001F1F7 巴西"
-    server: litmm.bygcloud.xyz
-    port: 27009
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1F2\U0001F1FD 墨西哥"
-    server: litmm.bygcloud.xyz
-    port: 27011
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
-  - name: "\U0001F1E8\U0001F1F1 智利"
-    server: litmm.bygcloud.xyz
-    port: 27002
-    type: ss
-    cipher: aes-128-gcm
-    password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
-    udp: true
+
+- name: "\U0001F1ED\U0001F1F0 香港 01"
+  server: litmm.bygcloud.xyz
+  port: 21101
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 香港 02"
+  server: litmm.bygcloud.xyz
+  port: 21102
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 香港 03"
+  server: litmm.bygcloud.xyz
+  port: 21103
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 香港 04"
+  server: litmm.bygcloud.xyz
+  port: 21004
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 香港 05"
+  server: litmm.bygcloud.xyz
+  port: 21005
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 台湾 01"
+  server: litmm.bygcloud.xyz
+  port: 22001
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 台湾 02"
+  server: litmm.bygcloud.xyz
+  port: 22002
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 日本 01"
+  server: litmm.bygcloud.xyz
+  port: 24001
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 日本 02"
+  server: litmm.bygcloud.xyz
+  port: 24002
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 日本 03"
+  server: litmm.bygcloud.xyz
+  port: 24003
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F8\U0001F1EC 新加坡 01"
+  server: litmm.bygcloud.xyz
+  port: 23001
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F8\U0001F1EC 新加坡 02"
+  server: litmm.bygcloud.xyz
+  port: 23002
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F8\U0001F1EC 新加坡 03"
+  server: litmm.bygcloud.xyz
+  port: 23003
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 韩国"
+  server: litmm.bygcloud.xyz
+  port: 25001
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 美国 01"
+  server: litmm.bygcloud.xyz
+  port: 26001
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 美国 02"
+  server: litmm.bygcloud.xyz
+  port: 26002
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 美国 03"
+  server: litmm.bygcloud.xyz
+  port: 26003
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1E8\U0001F1E6 加拿大"
+  server: litmm.bygcloud.xyz
+  port: 27014
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1FB\U0001F1F3 越南"
+  server: litmm.bygcloud.xyz
+  port: 27024
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F2\U0001F1FE 马来西亚"
+  server: litmm.bygcloud.xyz
+  port: 27018
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F9\U0001F1ED 泰国"
+  server: litmm.bygcloud.xyz
+  port: 27016
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 印度"
+  server: litmm.bygcloud.xyz
+  port: 27020
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F5\U0001F1ED 菲律宾"
+  server: litmm.bygcloud.xyz
+  port: 27001
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EE\U0001F1E9 印尼"
+  server: litmm.bygcloud.xyz
+  port: 27019
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1E6\U0001F1FA 澳大利亚"
+  server: litmm.bygcloud.xyz
+  port: 27008
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F3\U0001F1FF 新西兰"
+  server: litmm.bygcloud.xyz
+  port: 27028
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1E9\U0001F1EA 德国"
+  server: litmm.bygcloud.xyz
+  port: 27004
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 法国"
+  server: litmm.bygcloud.xyz
+  port: 27023
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1E8\U0001F1ED 瑞士"
+  server: litmm.bygcloud.xyz
+  port: 27007
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 英国"
+  server: litmm.bygcloud.xyz
+  port: 27005
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F5\U0001F1F1 波兰"
+  server: litmm.bygcloud.xyz
+  port: 27010
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EE\U0001F1F9 意大利"
+  server: litmm.bygcloud.xyz
+  port: 27012
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EA\U0001F1F8 西班牙"
+  server: litmm.bygcloud.xyz
+  port: 27026
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 荷兰"
+  server: litmm.bygcloud.xyz
+  port: 27027
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1FA\U0001F1E6 乌克兰"
+  server: litmm.bygcloud.xyz
+  port: 27022
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1EA\U0001F1EC 埃及"
+  server: litmm.bygcloud.xyz
+  port: 27021
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F2\U0001F1E9 摩尔多瓦"
+  server: litmm.bygcloud.xyz
+  port: 27013
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F5\U0001F1F0 巴基斯坦"
+  server: litmm.bygcloud.xyz
+  port: 27017
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: 乌兹别克斯坦
+  server: litmm.bygcloud.xyz
+  port: 27015
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F9\U0001F1F7 土耳其"
+  server: litmm.bygcloud.xyz
+  port: 27003
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1E6\U0001F1F7 阿根廷"
+  server: litmm.bygcloud.xyz
+  port: 27006
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1E7\U0001F1F7 巴西"
+  server: litmm.bygcloud.xyz
+  port: 27009
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1F2\U0001F1FD 墨西哥"
+  server: litmm.bygcloud.xyz
+  port: 27011
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true
+- name: "\U0001F1E8\U0001F1F1 智利"
+  server: litmm.bygcloud.xyz
+  port: 27002
+  type: ss
+  cipher: aes-128-gcm
+  password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
+  udp: true  
   - {name: WARPa, server: 162.159.195.14, port: 968, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
   - {name: WARPb, server: 162.159.192.175, port: 1387, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
   - {name: WARPc, server: 162.159.192.226, port: 864, type: wireguard, ip: 172.16.0.2/32, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: gHNxloZn5dAHqqY5k2i0wvAM47vfT8qAQJGv9KMkJGQ=, mtu: 1280, udp: true}
@@ -326,195 +327,201 @@ proxy-groups:
       - ⚖️ TW负载均衡-轮询
       - WARP-轮询
       - WARP-散列
-      - "♻️ 自动选择"
-      - "\U0001F1ED\U0001F1F0 香港 01"
-      - "\U0001F1ED\U0001F1F0 香港 02"
-      - "\U0001F1ED\U0001F1F0 香港 03"
-      - "\U0001F1ED\U0001F1F0 香港 04"
-      - "\U0001F1ED\U0001F1F0 香港 05"
-      - "\U0001F1E8\U0001F1F3 台湾 01"
-      - "\U0001F1E8\U0001F1F3 台湾 02"
-      - "\U0001F1EF\U0001F1F5 日本 01"
-      - "\U0001F1EF\U0001F1F5 日本 02"
-      - "\U0001F1EF\U0001F1F5 日本 03"
-      - "\U0001F1F8\U0001F1EC 新加坡 01"
-      - "\U0001F1F8\U0001F1EC 新加坡 02"
-      - "\U0001F1F8\U0001F1EC 新加坡 03"
-      - "\U0001F1F0\U0001F1F7 韩国"
-      - "\U0001F1FA\U0001F1F8 美国 01"
-      - "\U0001F1FA\U0001F1F8 美国 02"
-      - "\U0001F1FA\U0001F1F8 美国 03"
-      - "\U0001F1E8\U0001F1E6 加拿大"
-      - "\U0001F1FB\U0001F1F3 越南"
-      - "\U0001F1F2\U0001F1FE 马来西亚"
-      - "\U0001F1F9\U0001F1ED 泰国"
-      - "\U0001F1EE\U0001F1F3 印度"
-      - "\U0001F1F5\U0001F1ED 菲律宾"
-      - "\U0001F1EE\U0001F1E9 印尼"
-      - "\U0001F1E6\U0001F1FA 澳大利亚"
-      - "\U0001F1F3\U0001F1FF 新西兰"
-      - "\U0001F1E9\U0001F1EA 德国"
-      - "\U0001F1EB\U0001F1F7 法国"
-      - "\U0001F1E8\U0001F1ED 瑞士"
-      - "\U0001F1EC\U0001F1E7 英国"
-      - "\U0001F1F5\U0001F1F1 波兰"
-      - "\U0001F1EE\U0001F1F9 意大利"
-      - "\U0001F1EA\U0001F1F8 西班牙"
-      - "\U0001F1F3\U0001F1F1 荷兰"
-      - "\U0001F1FA\U0001F1E6 乌克兰"
-      - "\U0001F1EA\U0001F1EC 埃及"
-      - "\U0001F1F2\U0001F1E9 摩尔多瓦"
-      - "\U0001F1F5\U0001F1F0 巴基斯坦"
-      - 乌兹别克斯坦
-      - "\U0001F1F9\U0001F1F7 土耳其"
-      - "\U0001F1E6\U0001F1F7 阿根廷"
-      - "\U0001F1E7\U0001F1F7 巴西"
-      - "\U0001F1F2\U0001F1FD 墨西哥"
-      - "\U0001F1E8\U0001F1F1 智利"
-      - "\U0001F3AF 全球直连"
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "\U0001F1ED\U0001F1F0 香港 01"
-      - "\U0001F1ED\U0001F1F0 香港 02"
-      - "\U0001F1ED\U0001F1F0 香港 03"
-      - "\U0001F1ED\U0001F1F0 香港 04"
-      - "\U0001F1ED\U0001F1F0 香港 05"
-      - "\U0001F1E8\U0001F1F3 台湾 01"
-      - "\U0001F1E8\U0001F1F3 台湾 02"
-      - "\U0001F1EF\U0001F1F5 日本 01"
-      - "\U0001F1EF\U0001F1F5 日本 02"
-      - "\U0001F1EF\U0001F1F5 日本 03"
-      - "\U0001F1F8\U0001F1EC 新加坡 01"
-      - "\U0001F1F8\U0001F1EC 新加坡 02"
-      - "\U0001F1F8\U0001F1EC 新加坡 03"
-      - "\U0001F1F0\U0001F1F7 韩国"
-      - "\U0001F1FA\U0001F1F8 美国 01"
-      - "\U0001F1FA\U0001F1F8 美国 02"
-      - "\U0001F1FA\U0001F1F8 美国 03"
-      - "\U0001F1E8\U0001F1E6 加拿大"
-      - "\U0001F1FB\U0001F1F3 越南"
-      - "\U0001F1F2\U0001F1FE 马来西亚"
-      - "\U0001F1F9\U0001F1ED 泰国"
-      - "\U0001F1EE\U0001F1F3 印度"
-      - "\U0001F1F5\U0001F1ED 菲律宾"
-      - "\U0001F1EE\U0001F1E9 印尼"
-      - "\U0001F1E6\U0001F1FA 澳大利亚"
-      - "\U0001F1F3\U0001F1FF 新西兰"
-      - "\U0001F1E9\U0001F1EA 德国"
-      - "\U0001F1EB\U0001F1F7 法国"
-      - "\U0001F1E8\U0001F1ED 瑞士"
-      - "\U0001F1EC\U0001F1E7 英国"
-      - "\U0001F1F5\U0001F1F1 波兰"
-      - "\U0001F1EE\U0001F1F9 意大利"
-      - "\U0001F1EA\U0001F1F8 西班牙"
-      - "\U0001F1F3\U0001F1F1 荷兰"
-      - "\U0001F1FA\U0001F1E6 乌克兰"
-      - "\U0001F1EA\U0001F1EC 埃及"
-      - "\U0001F1F2\U0001F1E9 摩尔多瓦"
-      - "\U0001F1F5\U0001F1F0 巴基斯坦"
-      - 乌兹别克斯坦
-      - "\U0001F1F9\U0001F1F7 土耳其"
-      - "\U0001F1E6\U0001F1F7 阿根廷"
-      - "\U0001F1E7\U0001F1F7 巴西"
-      - "\U0001F1F2\U0001F1FD 墨西哥"
-      - "\U0001F1E8\U0001F1F1 智利"
-      - "\U0001F3AF 全球直连"
+      - 台湾 A01V
+      - 台湾 A02V
+      - 台湾 A03V
+      - 台湾 A04V
+      - 台湾 B01V
+      - 台湾 B02V
+      - 台湾 B03V
+      - 台湾 B04V
+      - 日本 A01V
+      - 日本 A02V
+      - 日本 A03V
+      - 日本 A04V
+      - 日本 B01V
+      - 狮城 A01V
+      - 狮城 A02V
+      - 狮城 A03V
+      - 狮城 A04V
+      - 狮城 B01V
+      - 美国 A01V
+      - 美国 A02V
+      - 美国 A03V
+      - 美国 A04V
+      - 美国 B01V
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "\U0001F1ED\U0001F1F0 香港 01"
-      - "\U0001F1ED\U0001F1F0 香港 02"
-      - "\U0001F1ED\U0001F1F0 香港 03"
-      - "\U0001F1ED\U0001F1F0 香港 04"
-      - "\U0001F1ED\U0001F1F0 香港 05"
-      - "\U0001F1E8\U0001F1F3 台湾 01"
-      - "\U0001F1E8\U0001F1F3 台湾 02"
-      - "\U0001F1EF\U0001F1F5 日本 01"
-      - "\U0001F1EF\U0001F1F5 日本 02"
-      - "\U0001F1EF\U0001F1F5 日本 03"
-      - "\U0001F1F8\U0001F1EC 新加坡 01"
-      - "\U0001F1F8\U0001F1EC 新加坡 02"
-      - "\U0001F1F8\U0001F1EC 新加坡 03"
-      - "\U0001F1F0\U0001F1F7 韩国"
-      - "\U0001F1FA\U0001F1F8 美国 01"
-      - "\U0001F1FA\U0001F1F8 美国 02"
-      - "\U0001F1FA\U0001F1F8 美国 03"
-      - "\U0001F1E8\U0001F1E6 加拿大"
-      - "\U0001F1FB\U0001F1F3 越南"
-      - "\U0001F1F2\U0001F1FE 马来西亚"
-      - "\U0001F1F9\U0001F1ED 泰国"
-      - "\U0001F1EE\U0001F1F3 印度"
-      - "\U0001F1F5\U0001F1ED 菲律宾"
-      - "\U0001F1EE\U0001F1E9 印尼"
-      - "\U0001F1E6\U0001F1FA 澳大利亚"
-      - "\U0001F1F3\U0001F1FF 新西兰"
-      - "\U0001F1E9\U0001F1EA 德国"
-      - "\U0001F1EB\U0001F1F7 法国"
-      - "\U0001F1E8\U0001F1ED 瑞士"
-      - "\U0001F1EC\U0001F1E7 英国"
-      - "\U0001F1F5\U0001F1F1 波兰"
-      - "\U0001F1EE\U0001F1F9 意大利"
-      - "\U0001F1EA\U0001F1F8 西班牙"
-      - "\U0001F1F3\U0001F1F1 荷兰"
-      - "\U0001F1FA\U0001F1E6 乌克兰"
-      - "\U0001F1EA\U0001F1EC 埃及"
-      - "\U0001F1F2\U0001F1E9 摩尔多瓦"
-      - "\U0001F1F5\U0001F1F0 巴基斯坦"
-      - 乌兹别克斯坦
-      - "\U0001F1F9\U0001F1F7 土耳其"
-      - "\U0001F1E6\U0001F1F7 阿根廷"
-      - "\U0001F1E7\U0001F1F7 巴西"
-      - "\U0001F1F2\U0001F1FD 墨西哥"
-      - "\U0001F1E8\U0001F1F1 智利"
+      - 台湾 A01V
+      - 台湾 A02V
+      - 台湾 A03V
+      - 台湾 A04V
+      - 台湾 B01V
+      - 台湾 B02V
+      - 台湾 B03V
+      - 台湾 B04V
+      - 日本 A01V
+      - 日本 A02V
+      - 日本 A03V
+      - 日本 A04V
+      - 日本 B01V
+      - 狮城 A01V
+      - 狮城 A02V
+      - 狮城 A03V
+      - 狮城 A04V
+      - 狮城 B01V
+      - 美国 A01V
+      - 美国 A02V
+      - 美国 A03V
+      - 美国 A04V
+      - 美国 B01V
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - "\U0001F1ED\U0001F1F0 香港 01"
-      - "\U0001F1ED\U0001F1F0 香港 02"
-      - "\U0001F1ED\U0001F1F0 香港 03"
-      - "\U0001F1ED\U0001F1F0 香港 04"
-      - "\U0001F1ED\U0001F1F0 香港 05"
-      - "\U0001F1E8\U0001F1F3 台湾 01"
-      - "\U0001F1E8\U0001F1F3 台湾 02"
-      - "\U0001F1EF\U0001F1F5 日本 01"
-      - "\U0001F1EF\U0001F1F5 日本 02"
-      - "\U0001F1EF\U0001F1F5 日本 03"
-      - "\U0001F1F8\U0001F1EC 新加坡 01"
-      - "\U0001F1F8\U0001F1EC 新加坡 02"
-      - "\U0001F1F8\U0001F1EC 新加坡 03"
-      - "\U0001F1F0\U0001F1F7 韩国"
-      - "\U0001F1FA\U0001F1F8 美国 01"
-      - "\U0001F1FA\U0001F1F8 美国 02"
-      - "\U0001F1FA\U0001F1F8 美国 03"
+      - 台湾 A01V
+      - 台湾 A02V
+      - 台湾 A03V
+      - 台湾 A04V
+      - 台湾 B01V
+      - 台湾 B02V
+      - 台湾 B03V
+      - 台湾 B04V
+      - 日本 A01V
+      - 日本 A02V
+      - 日本 A03V
+      - 日本 A04V
+      - 日本 B01V
+      - 狮城 A01V
+      - 狮城 A02V
+      - 狮城 A03V
+      - 狮城 A04V
+      - 狮城 B01V
+      - 美国 A01V
+      - 美国 A02V
+      - 美国 A03V
+      - 美国 A04V
+      - 美国 B01V
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
   - name: ⚖️ HK负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - "\U0001F1ED\U0001F1F0 香港 01"
-      - "\U0001F1ED\U0001F1F0 香港 02"
-      - "\U0001F1ED\U0001F1F0 香港 03"
-      - "\U0001F1ED\U0001F1F0 香港 04"
-      - "\U0001F1ED\U0001F1F0 香港 05"
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
   - name: ⚖️ HK-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - "\U0001F1ED\U0001F1F0 香港 01"
-      - "\U0001F1ED\U0001F1F0 香港 02"
-      - "\U0001F1ED\U0001F1F0 香港 03"
-      - "\U0001F1ED\U0001F1F0 香港 04"
-      - "\U0001F1ED\U0001F1F0 香港 05"
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
   - name: WARP-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -539,190 +546,227 @@ proxy-groups:
     interval: 300
     strategy: round-robin
     proxies:
-      - "\U0001F1E8\U0001F1F3 台湾 01"
-      - "\U0001F1E8\U0001F1F3 台湾 02"
+      - 台湾 A01V
+      - 台湾 A02V
+      - 台湾 A03V
+      - 台湾 A04V
+      - 台湾 B01V
+      - 台湾 B02V
+      - 台湾 B03V
+      - 台湾 B04V
   - name: ⚖️ JP负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - "\U0001F1EF\U0001F1F5 日本 01"
-      - "\U0001F1EF\U0001F1F5 日本 02"
-      - "\U0001F1EF\U0001F1F5 日本 03"
+      - 日本 A01V
+      - 日本 A02V
+      - 日本 A03V
+      - 日本 A04V
+      - 日本 B01V
   - name: ⚖️ US负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - "\U0001F1FA\U0001F1F8 美国 01"
-      - "\U0001F1FA\U0001F1F8 美国 02"
-      - "\U0001F1FA\U0001F1F8 美国 03"
+      - 美国 A01V
+      - 美国 A02V
+      - 美国 A03V
+      - 美国 A04V
+      - 美国 B01V
   - name: ⚖️ SG负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - "\U0001F1F8\U0001F1EC 新加坡 01"
-      - "\U0001F1F8\U0001F1EC 新加坡 02"
-      - "\U0001F1F8\U0001F1EC 新加坡 03"
+      - 狮城 A01V
+      - 狮城 A02V
+      - 狮城 A03V
+      - 狮城 A04V
+      - 狮城 B01V
   - name: 📲 电报消息
     type: select
     proxies:
-      - "♻️ 自动选择"
-      - ⚖️ 负载均衡-散列
-      - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
-      - ⚖️ TW负载均衡-轮询
-      - WARP-轮询
-      - WARP-散列
-      - "\U0001F3AF 全球直连"
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
   - name: 📹 油管视频
     type: select
     proxies:
-      - ⚖️ TW负载均衡-轮询
+      - 🚀 节点选择
+      - ♻️ 自动选择
       - ⚖️ 负载均衡-散列
       - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
-      - WARP-轮询
-      - WARP-散列
-      - "♻️ 自动选择"
-      - "\U0001F3AF 全球直连"
+      - ⚖️ TW负载均衡-轮询
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
   - name: 🎥 奈飞视频
     type: select
     proxies:
-      - ⚖️ HK负载均衡-轮询
+      - 🚀 节点选择
+      - 🎥 奈飞节点
+      - ♻️ 自动选择
       - ⚖️ 负载均衡-散列
-      - ⚖️ HK-散列
+      - ⚖️ HK负载均衡-轮询
       - ⚖️ TW负载均衡-轮询
-      - WARP-轮询
-      - WARP-散列
-      - "♻️ 自动选择"
-      - "\U0001F3AF 全球直连"
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
   - name: 📺 巴哈姆特
     type: select
     proxies:
       - ⚖️ TW负载均衡-轮询
-      - ⚖️ 负载均衡-散列
-      - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
-      - WARP-轮询
-      - WARP-散列
-      - "♻️ 自动选择"
-      - "\U0001F3AF 全球直连"
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - 🚀 手动切换
       - DIRECT
   - name: 📺 哔哩哔哩
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
-      - ⚖️ 负载均衡-散列
-      - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
-      - ⚖️ TW负载均衡-轮询
-      - WARP-轮询
-      - WARP-散列
-      - "♻️ 自动选择"
+      - 🎯 全球直连
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
   - name: 🌍 国外媒体
     type: select
     proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
       - ⚖️ 负载均衡-散列
       - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
       - ⚖️ TW负载均衡-轮询
-      - WARP-轮询
-      - WARP-散列
-      - "♻️ 自动选择"
-      - "\U0001F3AF 全球直连"
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
   - name: 🌏 国内媒体
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
-      - ⚖️ 负载均衡-散列
-      - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
-      - ⚖️ TW负载均衡-轮询
-      - WARP-轮询
-      - WARP-散列
-      - "♻️ 自动选择"
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
   - name: 📢 谷歌FCM
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
+      - DIRECT
       - ⚖️ 负载均衡-散列
       - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
-      - ⚖️ TW负载均衡-轮询
+      - ⚖️ TW负载均衡-轮询      
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - WARP-轮询
       - WARP-散列
-      - "♻️ 自动选择"
+      - 🚀 手动切换
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
+      - DIRECT
       - ⚖️ 负载均衡-散列
       - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
       - ⚖️ TW负载均衡-轮询
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - WARP-轮询
       - WARP-散列
-      - "♻️ 自动选择"
+      - 🚀 手动切换
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
+      - DIRECT
       - ⚖️ 负载均衡-散列
       - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
       - ⚖️ TW负载均衡-轮询
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - WARP-轮询
       - WARP-散列
-      - "♻️ 自动选择"
+      - 🚀 手动切换
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
+      - DIRECT
       - ⚖️ 负载均衡-散列
       - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
       - ⚖️ TW负载均衡-轮询
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - WARP-轮询
       - WARP-散列
-      - "♻️ 自动选择"
+      - 🚀 手动切换
   - name: 🎮 游戏平台
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
+      - DIRECT
+      - 🚀 节点选择
       - ⚖️ 负载均衡-散列
       - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
       - ⚖️ TW负载均衡-轮询
-      - WARP-轮询
-      - WARP-散列
-      - "♻️ 自动选择"
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
   - name: 🎶 网易音乐
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
-      - ⚖️ 负载均衡-散列
-      - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
-      - ⚖️ TW负载均衡-轮询
-      - WARP-轮询
-      - WARP-散列
-      - "♻️ 自动选择"
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
   - name: 🎯 全球直连
     type: select
     proxies:
-      - "\U0001F3AF 全球直连"
-      - ⚖️ 负载均衡-散列
-      - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
-      - ⚖️ TW负载均衡-轮询
-      - WARP-轮询
-      - WARP-散列
-      - "♻️ 自动选择"
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
   - name: 🛑 广告拦截
     type: select
     proxies:
@@ -736,78 +780,98 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - ⚖️ 负载均衡-散列
-      - ⚖️ HK负载均衡-轮询
-      - ⚖️ HK-散列
-      - ⚖️ TW负载均衡-轮询
-      - WARP-轮询
-      - WARP-散列
-      - "\U0001F3AF 全球直连"
-      - "♻️ 自动选择"
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "\U0001F1ED\U0001F1F0 香港 01"
-      - "\U0001F1ED\U0001F1F0 香港 02"
-      - "\U0001F1ED\U0001F1F0 香港 03"
-      - "\U0001F1ED\U0001F1F0 香港 04"
-      - "\U0001F1ED\U0001F1F0 香港 05"
+      - 香港 A01V
+      - 香港 A02V
+      - 香港 A03V
+      - 香港 A04V
+      - 香港 A05V
+      - 香港 A06V
+      - 香港 A07V
+      - 香港 A08V
+      - 香港 A09V
+      - 香港 A10V
+      - 香港 A11V
+      - 香港 A12V
+      - 香港 B01V
+      - 香港 B02V
+      - 香港 B03V
+      - 香港 B04V
+      - 香港 B05V
+      - 香港 B06V
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "\U0001F1EF\U0001F1F5 日本 01"
-      - "\U0001F1EF\U0001F1F5 日本 02"
-      - "\U0001F1EF\U0001F1F5 日本 03"
-      - "\U0001F1F8\U0001F1EC 新加坡 01"
-      - "\U0001F1F8\U0001F1EC 新加坡 02"
-      - "\U0001F1F8\U0001F1EC 新加坡 03"
-      - "\U0001F1F0\U0001F1F7 韩国"
-      - "\U0001F1FA\U0001F1F8 美国 01"
-      - "\U0001F1FA\U0001F1F8 美国 02"
-      - "\U0001F1FA\U0001F1F8 美国 03"
+      - 日本 A01V
+      - 日本 A02V
+      - 日本 A03V
+      - 日本 A04V
+      - 日本 B01V
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - "\U0001F1FA\U0001F1F8 美国 01"
-      - "\U0001F1FA\U0001F1F8 美国 02"
-      - "\U0001F1FA\U0001F1F8 美国 03"
+      - 美国 A01V
+      - 美国 A02V
+      - 美国 A03V
+      - 美国 A04V
+      - 美国 B01V
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "\U0001F1E8\U0001F1F3 台湾 01"
-      - "\U0001F1E8\U0001F1F3 台湾 02"
+      - 台湾 A01V
+      - 台湾 A02V
+      - 台湾 A03V
+      - 台湾 A04V
+      - 台湾 B01V
+      - 台湾 B02V
+      - 台湾 B03V
+      - 台湾 B04V
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "\U0001F1F8\U0001F1EC 新加坡 01"
-      - "\U0001F1F8\U0001F1EC 新加坡 02"
-      - "\U0001F1F8\U0001F1EC 新加坡 03"
+      - 狮城 A01V
+      - 狮城 A02V
+      - 狮城 A03V
+      - 狮城 A04V
+      - 狮城 B01V
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "\U0001F1F0\U0001F1F7 韩国"
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇨🇳 台湾节点
+      - DIRECT
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
