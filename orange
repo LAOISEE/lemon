@@ -1407,6 +1407,8 @@ rules:
 - "DOMAIN-SUFFIX,ai.com,\U0001F916 Chatgpt"
 - "DOMAIN,cdn.auth0.com,\U0001F916 Chatgpt"
 - "DOMAIN,bard.google.com,\U0001F916 Chatgpt"
+- "DOMAIN,oaistatic.com,\U0001F916 Chatgpt"
+- "DOMAIN,oaiusercontent.com,\U0001F916 Chatgpt"
 - "DOMAIN-SUFFIX,comments.app,\U0001F4F2 电报消息"
 - "DOMAIN-SUFFIX,contest.com,\U0001F4F2 电报消息"
 - "DOMAIN-SUFFIX,graph.org,\U0001F4F2 电报消息"
