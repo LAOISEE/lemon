@@ -18,7 +18,7 @@ dns:
   - 223.5.5.5
   - 119.29.29.29
   use-hosts: true
-  enhanced-mode: fake-ip  #added
+##enhanced-mode: fake-ip  #added
   nameserver:
   - 114.114.114.114
   - 119.29.29.29
@@ -66,7 +66,7 @@ proxies:
   port: 443
   password: yiUqxvLiO9XldQklS0M70Cdo
   sni: drive2.yililu.cf
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: "YILILU JAPAN"
   type: hysteria2
   server: 23.95.18.61
