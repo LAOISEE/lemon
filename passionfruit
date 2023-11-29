@@ -13,52 +13,12 @@ profile:
   store-selected: true
 dns:
   enable: true
-  ipv6: false
-  default-nameserver:
-  - 223.5.5.5
-  - 119.29.29.29
-  use-hosts: true
-##enhanced-mode: fake-ip  #added
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
   nameserver:
-  - 114.114.114.114
-  - 119.29.29.29
-  - 119.28.28.28
-  - 223.5.5.5
-  - https://doh.pub/dns-query
-  - https://dns.alidns.com/dns-query
-  - 192.168.12.230:53
-  fallback:
-  - tcp://192.168.12.231:53
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 0.0.0.0/8
-    - 10.0.0.0/8
-    - 100.64.0.0/10
-    - 127.0.0.0/8
-    - 169.254.0.0/16
-    - 172.16.0.0/12
-    - 192.0.0.0/24
-    - 192.0.2.0/24
-    - 192.88.99.0/24
-    - 192.168.0.0/16
-    - 198.18.0.0/15
-    - 198.51.100.0/24
-    - 203.0.113.0/24
-    - 224.0.0.0/4
-    - 240.0.0.0/4
-    - 255.255.255.255/32
-    domain:
-    - "+.google.com"
-    - "+.facebook.com"
-    - "+.youtube.com"
-    - "+.githubusercontent.com"
-    - "+.googlevideo.com"
-    - "+.msftconnecttest.com"
-    - "+.msftncsi.com"
-  enhanced-mode: redir-host
-  listen: 0.0.0.0:7874
+    - 8.8.8.8
+    - 1.1.1.1
+    - 114.114.114.114
 proxies:
 - name: "ZHANGHONGLU US"
   type: hysteria2
@@ -66,7 +26,7 @@ proxies:
   port: 443
   password: yiUqxvLiO9XldQklS0M70Cdo
   sni: drive2.yililu.cf
-  skip-cert-verify: false
+  skip-cert-verify: true
 - name: "YILILU JAPAN"
   type: hysteria2
   server: 23.95.18.61
