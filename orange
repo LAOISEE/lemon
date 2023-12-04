@@ -367,6 +367,11 @@ proxies:
   cipher: aes-128-gcm
   password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
   udp: true
+- {"name":"shop1\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"worker-curly-sun-f606.xiym.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-curly-sun-f606.xiym.workers.dev"}}}
+- {"name":"shop2\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"hello-world-debi.llaoise29.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hello-world-debi.llaoise29.workers.dev"}}}
+- {"name":"shop3\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"worker-shiny-moon-dce8.llaoise30.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-shiny-moon-dce8.llaoise30.workers.dev"}}}
+- {"name":"shop4\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"worker-muddy-forest-53b5.llaoise31.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-muddy-forest-53b5.llaoise31.workers.dev"}}}
+- {"name":"shop5\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"worker-silent-mode-b4d4.llaoise32.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-silent-mode-b4d4.llaoise32.workers.dev"}}}
 proxy-groups:
 - name: "\U0001F680 手动切换"
   type: select
@@ -377,6 +382,8 @@ proxy-groups:
   - ⚖️ SG负载均衡-轮询
   - ⚖️ JP负载均衡-轮询
   - ⚖️ US负载均衡-轮询
+  - ⚖️ Workers-散列
+  - ⚖️ Workers-轮询
   - "\U0001F1ED\U0001F1F0 香港 01"
   - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1ED\U0001F1F0 香港 03"
@@ -421,6 +428,28 @@ proxy-groups:
   - "\U0001F1E7\U0001F1F7 巴西"
   - "\U0001F1F2\U0001F1FD 墨西哥"
   - "\U0001F1E8\U0001F1F1 智利"
+- name: ⚖️ Workers-轮询
+  type: load-balance
+  url: http://www.google.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - "shop1\r"
+  - "shop2\r"
+  - "shop3\r"
+  - "shop4\r"
+  - "shop5\r"
+- name: ⚖️ Workers-散列
+  type: load-balance
+  url: http://www.google.com/generate_204
+  interval: 300
+  strategy: consistent-hashing
+  proxies:
+  - "shop1\r"
+  - "shop2\r"
+  - "shop3\r"
+  - "shop4\r"
+  - "shop5\r"
 - name: ⚖️ HK负载均衡-轮询
   type: load-balance
   url: http://www.google.com/generate_204
@@ -535,7 +564,8 @@ proxy-groups:
 - name: "\U0001F4F9 油管视频"
   type: select
   proxies:
-  - ⚖️ TW负载均衡-轮询
+  - ⚖️ Workers-散列
+  - ⚖️ Workers-轮询
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
@@ -591,6 +621,8 @@ proxy-groups:
   proxies:
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
+  - ⚖️ Workers-散列
+  - ⚖️ Workers-轮询
   - ⚖️ TW负载均衡-轮询
   - ⚖️ SG负载均衡-轮询
   - ⚖️ JP负载均衡-轮询
@@ -647,6 +679,8 @@ proxy-groups:
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
+  - ⚖️ Workers-散列
+  - ⚖️ Workers-轮询
   - ⚖️ TW负载均衡-轮询
   - ⚖️ SG负载均衡-轮询
   - ⚖️ JP负载均衡-轮询
@@ -832,6 +866,8 @@ proxy-groups:
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
+  - ⚖️ Workers-散列
+  - ⚖️ Workers-轮询
   - ⚖️ TW负载均衡-轮询
   - ⚖️ SG负载均衡-轮询
   - ⚖️ JP负载均衡-轮询
@@ -987,6 +1023,8 @@ proxy-groups:
 - name: "\U0001F30D 国外媒体"
   type: select
   proxies:
+  - ⚖️ Workers-散列
+  - ⚖️ Workers-轮询
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
@@ -1313,6 +1351,8 @@ proxy-groups:
 - name: "\U0001F41F 漏网之鱼"
   type: select
   proxies:
+  - ⚖️ Workers-散列
+  - ⚖️ Workers-轮询
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
