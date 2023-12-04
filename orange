@@ -31609,11 +31609,4 @@ geodata-mode: true
 geodata-loader: standard
 tcp-concurrent: true
 global-client-fingerprint: chrome
-tun:
-  enable: true
-  stack: system
-  device: utun
-  auto-route: false
-  auto-detect-interface: false
-  dns-hijack:
-  - tcp://any:53
+
