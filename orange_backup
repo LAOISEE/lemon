@@ -446,6 +446,11 @@ proxy-groups:
   - "\U0001F1E7\U0001F1F7 巴西"
   - "\U0001F1F2\U0001F1FD 墨西哥"
   - "\U0001F1E8\U0001F1F1 智利"
+  - "shop1\r"
+  - "shop2\r"
+  - "shop3\r"
+  - "shop4\r"
+  - "shop5\r"
 - name: ⚖️ Workers-轮询
   type: load-balance
   url: http://www.google.com/generate_204
