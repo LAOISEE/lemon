@@ -1449,9 +1449,38 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1EF\U0001F1F5 日本 03"
 rules:
-- DST-PORT,7895,REJECT
-- DST-PORT,7892,REJECT
-- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,ip6-localhost,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,ip6-loopback,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,lan,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,local,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,localhost,\U0001F3AF 全球直连
+- IP-CIDR,10.0.0.0/8,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR,100.64.0.0/10,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR,127.0.0.0/8,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR,172.16.0.0/12,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR,192.168.0.0/16,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR,198.18.0.0/16,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR,224.0.0.0/4,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR6,::1/128,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR6,fc00::/7,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR6,fe80::/10,\U0001F3AF 全球直连,no-resolve
+- IP-CIDR6,fd00::/8,\U0001F3AF 全球直连,no-resolve
+- DOMAIN,instant.arubanetworks.com,\U0001F3AF 全球直连
+- DOMAIN,setmeup.arubanetworks.com,\U0001F3AF 全球直连
+- DOMAIN,router.asus.com,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,hiwifi.com,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,leike.cc,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,miwifi.com,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,my.router,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,p.to,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,peiluyou.com,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,phicomm.me,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,router.ctc,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,routerlogin.com,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,tendawifi.com,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,zte.home,\U0001F3AF 全球直连
+- DOMAIN-SUFFIX,tplogin.cn,\U0001F3AF 全球直连
 - "DST-PORT,22,\U0001F4E7 SSH邮件"
 - "DST-PORT,110,\U0001F4E7 SSH邮件"
 - "DST-PORT,143,\U0001F4E7 SSH邮件"
