@@ -1,81 +1,63 @@
-mixed-port: 7890
+---
+port: 7890
+socks-port: 7891
+mixed-port: 7893
 allow-lan: true
+mode: rule
 log-level: info
-external-controller: 0.0.0.0:9090
+external-controller: 0.0.0.0:9393
+clash-for-android:
+  append-system-dns: false
+profile:
+  tracing: true
+  store-selected: true
 dns:
-  enabled: true
-  listen: 0.0.0.0:1053
-  ipv6: true
+  enable: true
+  ipv6: false
   default-nameserver:
-    - 223.5.5.5
-    - 114.114.114.114
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - '*.lan'
-    - '*.linksys.com'
-    - '*.linksyssmartwifi.com'
-    - swscan.apple.com
-    - mesu.apple.com
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - time.*.com
-    - time.*.gov
-    - time.*.edu.cn
-    - time.*.apple.com
-    - time1.*.com
-    - time2.*.com
-    - time3.*.com
-    - time4.*.com
-    - time5.*.com
-    - time6.*.com
-    - time7.*.com
-    - ntp.*.com
-    - ntp.*.com
-    - ntp1.*.com
-    - ntp2.*.com
-    - ntp3.*.com
-    - ntp4.*.com
-    - ntp5.*.com
-    - ntp6.*.com
-    - ntp7.*.com
-    - '*.time.edu.cn'
-    - '*.ntp.org.cn'
-    - +.pool.ntp.org
-    - time1.cloud.tencent.com
-    - +.music.163.com
-    - '*.126.net'
-    - musicapi.taihe.com
-    - music.taihe.com
-    - songsearch.kugou.com
-    - trackercdn.kugou.com
-    - '*.kuwo.cn'
-    - api-jooxtt.sanook.com
-    - api.joox.com
-    - joox.com
-    - +.y.qq.com
-    - +.music.tc.qq.com
-    - aqqmusic.tc.qq.com
-    - +.stream.qqmusic.qq.com
-    - '*.xiami.com'
-    - +.music.migu.cn
-    - +.srv.nintendo.net
-    - +.stun.playstation.net
-    - xbox.*.microsoft.com
-    - +.xboxlive.com
-    - localhost.ptlogin2.qq.com
-    - proxy.golang.org
-    - stun.*.*
-    - stun.*.*.*
-    - '*.mcdn.bilivideo.cn'
+  - 223.5.5.5
+  - 119.29.29.29
+  use-hosts: true
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+  - 114.114.114.114
+  - 119.29.29.29
+  - 119.28.28.28
+  - 223.5.5.5
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  - 192.168.12.230:53
+  fallback:
+  - tcp://192.168.12.231:53
   fallback-filter:
-    geoip: false
+    geoip: true
+    geoip-code: CN
     ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.100.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+    - 255.255.255.255/32
+    domain:
+    - "+.google.com"
+    - "+.facebook.com"
+    - "+.youtube.com"
+    - "+.githubusercontent.com"
+    - "+.googlevideo.com"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
 proxies:
 - name: "\U0001F1ED\U0001F1F0 香港 01"
   type: ss
@@ -385,11 +367,6 @@ proxies:
   cipher: aes-128-gcm
   password: d2dfb1e3-8f27-43d0-93d6-132af6a94cb7
   udp: true
-- {"name":"shop1\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"worker-curly-sun-f606.xiym.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-curly-sun-f606.xiym.workers.dev"}}}
-- {"name":"shop2\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"hello-world-debi.llaoise29.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hello-world-debi.llaoise29.workers.dev"}}}
-- {"name":"shop3\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"worker-shiny-moon-dce8.llaoise30.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-shiny-moon-dce8.llaoise30.workers.dev"}}}
-- {"name":"shop4\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"worker-muddy-forest-53b5.llaoise31.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-muddy-forest-53b5.llaoise31.workers.dev"}}}
-- {"name":"shop5\r","type":"vless","server":"shoponline.zhanghonglu.cf","port":2095,"uuid":"ba2fce19-a7ed-4963-b9af-b9b5073463df","tls":false,"servername":"worker-silent-mode-b4d4.llaoise32.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker-silent-mode-b4d4.llaoise32.workers.dev"}}}
 proxy-groups:
 - name: "\U0001F680 手动切换"
   type: select
@@ -400,8 +377,6 @@ proxy-groups:
   - ⚖️ SG负载均衡-轮询
   - ⚖️ JP负载均衡-轮询
   - ⚖️ US负载均衡-轮询
-  - ⚖️ Workers-散列
-  - ⚖️ Workers-轮询
   - "\U0001F1ED\U0001F1F0 香港 01"
   - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1ED\U0001F1F0 香港 03"
@@ -446,33 +421,6 @@ proxy-groups:
   - "\U0001F1E7\U0001F1F7 巴西"
   - "\U0001F1F2\U0001F1FD 墨西哥"
   - "\U0001F1E8\U0001F1F1 智利"
-  - "shop1\r"
-  - "shop2\r"
-  - "shop3\r"
-  - "shop4\r"
-  - "shop5\r"
-- name: ⚖️ Workers-轮询
-  type: load-balance
-  url: http://www.google.com/generate_204
-  interval: 300
-  strategy: round-robin
-  proxies:
-  - "shop1\r"
-  - "shop2\r"
-  - "shop3\r"
-  - "shop4\r"
-  - "shop5\r"
-- name: ⚖️ Workers-散列
-  type: load-balance
-  url: http://www.google.com/generate_204
-  interval: 300
-  strategy: consistent-hashing
-  proxies:
-  - "shop1\r"
-  - "shop2\r"
-  - "shop3\r"
-  - "shop4\r"
-  - "shop5\r"
 - name: ⚖️ HK负载均衡-轮询
   type: load-balance
   url: http://www.google.com/generate_204
@@ -587,8 +535,6 @@ proxy-groups:
 - name: "\U0001F4F9 油管视频"
   type: select
   proxies:
-  - ⚖️ Workers-散列
-  - ⚖️ Workers-轮询
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
@@ -644,8 +590,6 @@ proxy-groups:
   proxies:
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
-  - ⚖️ Workers-散列
-  - ⚖️ Workers-轮询
   - ⚖️ TW负载均衡-轮询
   - ⚖️ SG负载均衡-轮询
   - ⚖️ JP负载均衡-轮询
@@ -702,8 +646,6 @@ proxy-groups:
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
-  - ⚖️ Workers-散列
-  - ⚖️ Workers-轮询
   - ⚖️ TW负载均衡-轮询
   - ⚖️ SG负载均衡-轮询
   - ⚖️ JP负载均衡-轮询
@@ -889,8 +831,6 @@ proxy-groups:
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
-  - ⚖️ Workers-散列
-  - ⚖️ Workers-轮询
   - ⚖️ TW负载均衡-轮询
   - ⚖️ SG负载均衡-轮询
   - ⚖️ JP负载均衡-轮询
@@ -1046,8 +986,6 @@ proxy-groups:
 - name: "\U0001F30D 国外媒体"
   type: select
   proxies:
-  - ⚖️ Workers-散列
-  - ⚖️ Workers-轮询
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
@@ -1374,8 +1312,6 @@ proxy-groups:
 - name: "\U0001F41F 漏网之鱼"
   type: select
   proxies:
-  - ⚖️ Workers-散列
-  - ⚖️ Workers-轮询
   - "\U0001F680 手动切换"
   - ⚖️ HK负载均衡-轮询
   - ⚖️ HK-散列
@@ -1449,38 +1385,9 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1EF\U0001F1F5 日本 03"
 rules:
-- DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,ip6-localhost,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,ip6-loopback,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,lan,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,local,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,localhost,\U0001F3AF 全球直连
-- IP-CIDR,10.0.0.0/8,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR,100.64.0.0/10,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR,127.0.0.0/8,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR,172.16.0.0/12,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR,192.168.0.0/16,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR,198.18.0.0/16,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR,224.0.0.0/4,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR6,::1/128,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR6,fc00::/7,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR6,fe80::/10,\U0001F3AF 全球直连,no-resolve
-- IP-CIDR6,fd00::/8,\U0001F3AF 全球直连,no-resolve
-- DOMAIN,instant.arubanetworks.com,\U0001F3AF 全球直连
-- DOMAIN,setmeup.arubanetworks.com,\U0001F3AF 全球直连
-- DOMAIN,router.asus.com,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,hiwifi.com,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,leike.cc,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,miwifi.com,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,my.router,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,p.to,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,peiluyou.com,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,phicomm.me,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,router.ctc,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,routerlogin.com,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,tendawifi.com,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,zte.home,\U0001F3AF 全球直连
-- DOMAIN-SUFFIX,tplogin.cn,\U0001F3AF 全球直连
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - "DST-PORT,22,\U0001F4E7 SSH邮件"
 - "DST-PORT,110,\U0001F4E7 SSH邮件"
 - "DST-PORT,143,\U0001F4E7 SSH邮件"
@@ -31650,3 +31557,14 @@ rules:
 - "DOMAIN-SUFFIX,tvbox10.com,\U0001F3AF 全球直连"
 - "GEOIP,CN,\U0001F3AF 全球直连"
 - "MATCH,\U0001F41F 漏网之鱼"
+redir-port: 7892
+tproxy-port: 7895
+secret: Passw0rd
+bind-address: "*"
+external-ui: "/usr/share/openclash/ui"
+ipv6: false
+interface-name: br-lan
+geodata-mode: true
+geodata-loader: standard
+tcp-concurrent: true
+global-client-fingerprint: chrome
