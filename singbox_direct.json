@@ -1,22 +1,26 @@
 {
-"version": 1,
-"rule": [
-{
-	"domain":[
-		"note.yililu.cf",
-		"home.yililu.cf"
-]
-},
-{
-	"domain_suffix": [
-
-]
-},
-{ 
-	"ip_cidr": [
-		"192.168.12.0/24",
-		"192.168.196.0/24"
-	]
-  }
- ]	
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "note.yililu.cf",
+        "home.yililu.cf"
+      ]
+    },
+    {
+      "domain_suffix": [
+        
+      ]
+    },
+    {
+      "domain_keyword": [
+        
+      ]
+    },
+    {
+      "ip_cidr": [
+        
+      ]
+    }
+  ]
 }
